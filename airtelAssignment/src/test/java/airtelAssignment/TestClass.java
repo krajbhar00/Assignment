@@ -1,8 +1,9 @@
 package airtelAssignment;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import java.io.File;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -31,7 +32,7 @@ public class TestClass extends BaseClassTest{
 		
 		String cartHref=new PageClass().getCartHref();	
 		log.info("Camparing selected item and cart item product id");
-		AssertJUnit.assertTrue(cartHref.contains(PageClass.productId));
+		Assert.assertTrue(cartHref.contains(PageClass.productId));
 		log.info("selected item and cart item product id are same");
 
 	}
