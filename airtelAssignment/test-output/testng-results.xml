@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30624" started-at="2020-07-19T13:31:32Z" finished-at="2020-07-19T13:32:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30624" started-at="2020-07-19T13:31:32Z" finished-at="2020-07-19T13:32:03Z">
+      <class name="airtelAssignment.TestClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:airtelAssignment.TestClass@271053e1]" name="setUp" is-config="true" duration-ms="13003" started-at="2020-07-19T13:31:32Z" finished-at="2020-07-19T13:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="useCase_1()[pri:0, instance:airtelAssignment.TestClass@271053e1]" name="useCase_1" duration-ms="5902" started-at="2020-07-19T13:31:45Z" finished-at="2020-07-19T13:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useCase_1 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:airtelAssignment.TestClass@271053e1]" name="close" is-config="true" duration-ms="204" started-at="2020-07-19T13:31:51Z" finished-at="2020-07-19T13:31:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:airtelAssignment.TestClass@271053e1]" name="setUp" is-config="true" duration-ms="10391" started-at="2020-07-19T13:31:51Z" finished-at="2020-07-19T13:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="useCase_2()[pri:0, instance:airtelAssignment.TestClass@271053e1]" name="useCase_2" duration-ms="801" started-at="2020-07-19T13:32:02Z" finished-at="2020-07-19T13:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useCase_2 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:airtelAssignment.TestClass@271053e1]" name="close" is-config="true" duration-ms="260" started-at="2020-07-19T13:32:02Z" finished-at="2020-07-19T13:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- airtelAssignment.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
